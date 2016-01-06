@@ -1,0 +1,98 @@
+/* Step 2: Set the base CSS */
+.container {
+    margin: auto;
+    width: 1000px;
+}
+.screen {
+    position: relative;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    min-height: 360px;
+}
+
+/* Step 4: Choose colors */
+#one-left {
+    background-color: #7c2323;
+}
+#one-right {
+    background-color: #9d4242;
+}
+#two-left {
+    background-color: #385f7d;
+}
+#two-right {
+    background-color: #5d84a1;
+}
+#three-left {
+    background-color: #416e2f;
+}
+#three-right {
+    background-color: #5c844c;
+}
+
+/* Step 5: Prepare the content */
+.image-place {
+    padding: 100px 0 130px;
+    position: relative;
+    z-index: 10;
+    max-width: 100%;
+    text-align: center;
+}
+.image-place img {
+    width: 600px;
+    border: 10px solid #eee;
+}
+
+#wrapper {
+    margin: 0px;
+    padding: 0px;
+    border: 0px none;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.background {
+    background-color: #1f1f1f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+/* Rule responsible for displaying the colors */
+#one-left, #one-right, #two-left, #two-right, #three-left, #three-right {
+    display: block;
+    width: 51%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* END special rule */
+
+#one-right, #two-right, #three-right {
+    left: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
